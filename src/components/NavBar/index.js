@@ -35,14 +35,14 @@ export default class NavBar extends Component {
     classes: PropTypes.object.isRequired,
     walletAddresses: PropTypes.array.isRequired,
     actionableItemCount: PropTypes.object,
-    // langHandler: PropTypes.func,
+    langHandler: PropTypes.func,
     appLocation: PropTypes.string.isRequired,
     lang: PropTypes.string.isRequired,
   }
 
   static defaultProps = {
     actionableItemCount: undefined,
-    // langHandler: undefined,
+    langHandler: undefined,
   }
 
   constructor(props) {
