@@ -9,7 +9,6 @@ const outputLanguageDataDir = './src/languageProvider/locales/';
 let prevmessages = JSON.parse(fs.readFileSync('./src/languageProvider/locales/en_US.json', 'utf8'));
 let cnMessages = JSON.parse(fs.readFileSync('./src/languageProvider/locales/zh-Hans.json', 'utf8'));
 let krMessages = JSON.parse(fs.readFileSync('./src/languageProvider/locales/ko-KR.json', 'utf8'));
-let ff = fs.readFileSync('./src/languageProvider/locales/1.txt', 'utf8').split('\n');
 
 // Aggregates the default messages that were extracted from the app's
 // React components via the React Intl Babel plugin. The result
