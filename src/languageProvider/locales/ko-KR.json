@@ -136,7 +136,7 @@
   "str.d": "일",
   "str.date": "날짜",
   "str.description": "기술",
-  "str.empty": "",
+  "str.empty": " ",
   "str.emptyTxHistory": "지금 거래가 없습니다.",
   "str.encrypt": "지갑을 암호로 암호화합니다. 이것은 처음 암호화 용입니다. 암호화 한 후에는 Bodhi를 시작할 때이 암호를 사용하여 지갑을 잠금 해제해야합니다.",
   "str.end": "종료 됨",
