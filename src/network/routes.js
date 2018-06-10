@@ -3,8 +3,8 @@ const HTTP_ROUTE = `http://${AUTHORITY}`;
 const WS_ROUTE = `ws://${AUTHORITY}`;
 
 const QTUM_EXPLORER = {
-  dev: 'https://testnet.qtum.org',
-  prod: 'https://explorer.qtum.org',
+  dev: 'https://testexplorer.berycoin.com',
+  prod: 'https://explorer.berycoin.com',
 }[process.env.REACT_APP_ENV];
 const BASE_INSIGHT = `${QTUM_EXPLORER}/insight-api`;
 
